@@ -5,7 +5,7 @@ import MaterialJsonSchemaForm from 'react-jsonschema-form-material-ui/dist/bundl
 // Internals
 import schema from './simple/schema.json';
 import uiSchema from './simple/ui-schema.json';
-import givenFormData from '../simple/form-data.json';
+import givenFormData from './simple/form-data.json';
 
 const App = () => {
   const [formData, setFormData] = React.useState(givenFormData);
