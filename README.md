@@ -40,7 +40,7 @@ export default () => {
             schema={schema} 
             uiSchema={uiSchema} 
             formData={formData} 
-            theme={theme}
+            theme={theme} // Optional
             onChange={({ formData }) => setFormData(formData)}
             onSubmit={() => console.log('form submitted')}
           />;
