@@ -3,6 +3,7 @@
 This is a small demo project showcasing compatiblity of [CRA](https://github.com/facebook/create-react-app) with [react-jsonschema-form-material-ui](https://github.com/vip-git/react-jsonschema-form-material-ui)
 
 ```bash
+yarn 
 npm start
 ```
 
